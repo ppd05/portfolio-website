@@ -179,7 +179,7 @@ const Portfolio = () => {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black shadow-lg z-50">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12"> 
-          <div className="flex justify-between items-center h-16"> 
+          <div className="flex justify-between items-center h-12"> 
             <div className="text-xl font-bold text-white">Portfolio</div> 
 
             {/* Desktop Navigation */}
@@ -307,7 +307,7 @@ const Portfolio = () => {
       </section>
 
       {/* Experience Section - REDUCED PADDING/MARGINS/SPACING */}
-      <section id="experience" className="py-16 px-4"> {/* Reduced vertical padding from py-20 to py-16 */}
+      <section id="experience" className="pt-2 py-16 px-4"> {/* Reduced vertical padding from py-20 to py-16 */}
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Work Experience</h2> {/* Reduced margin from mb-10 to mb-8 */}
           <div className="space-y-6"> {/* Reduced spacing from space-y-8 to space-y-6 */}
