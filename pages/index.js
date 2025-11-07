@@ -346,7 +346,7 @@ const Portfolio = () => {
       </section>
 
       {/* Skills Section (Color Styling Restored & Size Reduced) */}
-      <section id="skills" className="pt-4 pb-16 px-4"> {/* Reduced vertical padding from py-20 to py-16 */}
+      <section id="skills" className="pt-2 pb-16 px-4"> {/* Reduced vertical padding from py-20 to py-16 */}
       <div className="max-w-5xl mx-auto">
       <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Skills</h2> {/* Reduced margin from mb-10 to mb-8 */}
 
@@ -514,7 +514,7 @@ const Portfolio = () => {
       </section>
 
       {/* Projects Section - REDUCED PADDING/MARGINS/SPACING */}
-      <section id="projects" className="py-16 px-4 bg-white"> {/* Reduced vertical padding from py-20 to py-16 */}
+      <section id="projects" className="pt-2 py-16 px-4 bg-white"> {/* Reduced vertical padding from py-20 to py-16 */}
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center text-black">Featured Projects</h2> {/* Reduced margin from mb-12 to mb-10 */}
           <div className="grid md:grid-cols-2 gap-5"> {/* Reduced gap from gap-6 to gap-5 */}
@@ -563,7 +563,7 @@ const Portfolio = () => {
       </section>
 
       {/* Contact Section - REDUCED PADDING/MARGINS/SPACING */}
-      <section id="contact" className="py-16 px-4 bg-gray-50"> {/* Reduced vertical padding from py-20 to py-16 */}
+      <section id="contact" className="pt-2 py-16 px-4 bg-gray-50"> {/* Reduced vertical padding from py-20 to py-16 */}
         <div className="max-w-4xl mx-auto"> 
           <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center text-black">Get In Touch</h2> {/* Reduced margin from mb-10 to mb-8 */}
 
