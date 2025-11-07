@@ -232,7 +232,7 @@ const Portfolio = () => {
       </nav>
 
       {/* Hero Section - REDUCED VERTICAL PADDING */}
-      <section id="home" className="min-h-screen flex items-center pt-20 pb-10 bg-white"> 
+      <section id="home" className="min-h-screen flex items-center pt-20 pb-8 bg-white"> 
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12"> 
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12"> 
             
@@ -312,7 +312,7 @@ const Portfolio = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Work Experience</h2> {/* Reduced margin from mb-10 to mb-8 */}
           <div className="space-y-6"> {/* Reduced spacing from space-y-8 to space-y-6 */}
             {experiences.map((exp, index) => (
-              <div key={index} className="relative pl-6 border-l-2 border-black pb-4"> {/* Reduced bottom padding from pb-6 to pb-4 */}
+              <div key={index} className="relative pl-6 border-l-2 border-black pb-3"> {/* Reduced bottom padding from pb-6 to pb-4 */}
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-black rounded-full border-2 border-white"></div>
                 <div className="bg-white p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow"> {/* Reduced padding from p-6 to p-5 */}
                   <div className="flex flex-wrap justify-between items-start mb-2"> {/* Reduced margin from mb-3 to mb-2 */}
@@ -346,7 +346,7 @@ const Portfolio = () => {
       </section>
 
       {/* Skills Section (Color Styling Restored & Size Reduced) */}
-      <section id="skills" className="py-16 px-4"> {/* Reduced vertical padding from py-20 to py-16 */}
+      <section id="skills" className="pt-4 pb-16 px-4"> {/* Reduced vertical padding from py-20 to py-16 */}
       <div className="max-w-5xl mx-auto">
       <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Skills</h2> {/* Reduced margin from mb-10 to mb-8 */}
 
@@ -463,7 +463,7 @@ const Portfolio = () => {
 
 
       {/* Education Section - REDUCED PADDING/MARGINS/SPACING */}
-      <section id="education" className="py-16 px-4"> {/* Reduced vertical padding from py-20 to py-16 */}
+      <section id="education" className="pt-4 py-16 px-4"> {/* Reduced vertical padding from py-20 to py-16 */}
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Education</h2> {/* Reduced margin from mb-10 to mb-8 */}
           <div className="space-y-4"> {/* Reduced spacing from space-y-6 to space-y-4 */}
