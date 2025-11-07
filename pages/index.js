@@ -255,7 +255,7 @@ const Portfolio = () => {
 
             <div className="flex-grow text-center md:text-left">
               
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-1 text-black tracking-tight leading-tight"> 
+              <h1 className="text-4xl sm:text-5xl lg:text-4xl font-extrabold mb-1 text-black tracking-tight leading-tight"> 
                 PRATEEK PRASAD DESHPANDE
               </h1>
               <p className="text-xl sm:text-2xl text-gray-800 font-semibold mb-3"> {/* Reduced margin from mb-4 to mb-3 */}
