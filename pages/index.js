@@ -396,8 +396,12 @@ const Portfolio = () => {
             "Vector Databases",
             "LLMs",
             "FastAPI",
-            "RAG",
-            "MCP",
+            "Retrieval-Augmented Generation (RAG)",
+            "Model Context Protocol (MCP)",
+            "Oracle APEX",
+            "AWS",
+            "GCP",
+            "Vertex AI",
           ].map((skill, index) => (
             <div
               key={index}
@@ -413,13 +417,13 @@ const Portfolio = () => {
 
       {/* Cloud Technologies (Sky Theme Restored) */}
       <div className="bg-sky-50/30 p-4 rounded-xl shadow-sm"> {/* Reduced padding from p-5 to p-4 */}
-        <h3 className="text-lg font-semibold mb-3">Cloud Technologies</h3> {/* Reduced font size (from text-xl) and margin (from mb-4) */}
+        <h3 className="text-lg font-semibold mb-3">Electronic Data Capture (EDC) Systems</h3> {/* Reduced font size (from text-xl) and margin (from mb-4) */}
 
         <div className="flex flex-wrap gap-2"> {/* Reduced gap from gap-3 to gap-2 */}
           {[
-            "AWS",
-            "GCP",
-            "Vertex AI",
+            "Medidata Rave",
+            "Veeva EDC",
+            "Veeva Vault (Clinical)",
           ].map((skill, index) => (
             <div
               key={index}
@@ -435,15 +439,20 @@ const Portfolio = () => {
 
       {/* Clinical Trial Technology (Orange Theme Restored) */}
       <div className="bg-orange-50/30 p-4 rounded-xl shadow-sm"> {/* Reduced padding from p-5 to p-4 */}
-        <h3 className="text-lg font-semibold mb-3">Clinical Trial Technology</h3> {/* Reduced font size (from text-xl) and margin (from mb-4) */}
+        <h3 className="text-lg font-semibold mb-3">Therapeutic areas and Clinical trial technology</h3> {/* Reduced font size (from text-xl) and margin (from mb-4) */}
 
         <div className="flex flex-wrap gap-2"> {/* Reduced gap from gap-3 to gap-2 */}
           {[
-            "Medidata RAVE",
-            "Veeva EDC",
-            "Veeva Vault (Clinical)",
+            "Hematology",
+            "Oncology",
+            "Immunology",
+            "Metabolic Disorders",
+            "Investigational product data (IPD)",
+            "Interactive Voice Response System (IVRS)",
+            "Clinical Data Management (CDM)",
+            "snapshots",
             "eCOA",
-            "ePRO",
+            "ePRO"
           ].map((skill, index) => (
             <div
               key={index}
